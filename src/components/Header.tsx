@@ -12,6 +12,16 @@ const Header: React.FC = () => {
     { name: 'Contact', href: '#contact' }
   ];
 
+  const handleQuoteClick = () => {
+    const el = document.getElementById('contact');
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    } else {
+      // Fallback - updates the hash which may work if the element is on another page
+      window.location.hash = '#contact';
+    }
+  };
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-primary backdrop-blur-sm shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -42,7 +52,7 @@ const Header: React.FC = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <button className="bg-red-600 hover:bg-red-800 text-white px-6 py-2 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
+            <button className="bg-red-600 hover:bg-red-800 text-white px-6 py-2 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105" onClick={handleQuoteClick}>
               Get Quote
             </button>
           </div>
