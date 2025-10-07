@@ -148,7 +148,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Email</h4>
-                    <p className="text-gray-600">hello@addesignllc.com</p>
+                    <p className="text-gray-600">ad_design@cyberservices.com</p>
                   </div>
                 </div>
 
@@ -160,7 +160,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Phone</h4>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                    <p className="text-gray-600">+1 (509) 202-5508</p>
                   </div>
                 </div>
 
@@ -173,13 +173,13 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Office</h4>
-                    <p className="text-gray-600">123 Business Ave<br />Suite 100, City, ST 12345</p>
+                    <p className="text-gray-600">1415 E Hartson Ave<br />Suite #5, Spokane, WA 99202</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-red-600 to-red-800 rounded-2xl shadow-xl p-8 text-white">
+            {/* <div className="bg-gradient-to-br from-red-600 to-red-800 rounded-2xl shadow-xl p-8 text-white">
               <h3 className="text-2xl font-bold mb-4">Free Consultation</h3>
               <p className="mb-6">
                 Schedule a free 30-minute consultation to discuss your project and get expert advice on the best approach.
@@ -187,7 +187,7 @@ const Contact: React.FC = () => {
               <button className="bg-white text-red-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition-all duration-300">
                 Book Consultation
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
