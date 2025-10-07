@@ -2,9 +2,9 @@ import React from 'react';
 
 const About: React.FC = () => {
   const stats = [
-    { number: '150+', label: 'Projects Completed' },
-    { number: '50+', label: 'Happy Clients' },
-    { number: '5+', label: 'Years Experience' },
+    { number: '10+', label: 'Projects Completed' },
+    { number: '2+', label: 'Happy Clients' },
+    { number: '2+', label: 'Years Experience' },
     { number: '24/7', label: 'Support Available' }
   ];
 
@@ -53,9 +53,6 @@ const About: React.FC = () => {
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               Our team of experienced developers, designers, and digital strategists work collaboratively to ensure every project exceeds expectations. From startups to established enterprises, we've helped businesses across various industries achieve their digital goals.
             </p>
-            <button className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
-              Learn More About Us
-            </button>
           </div>
           
           <div className="relative">
@@ -65,7 +62,7 @@ const About: React.FC = () => {
               className="w-full h-96 object-cover rounded-2xl shadow-2xl"
             />
             <div className="absolute -bottom-6 -left-6 bg-red-600 text-white p-6 rounded-2xl shadow-xl">
-              <div className="text-2xl font-bold">98%</div>
+              <div className="text-2xl font-bold">100%</div>
               <div className="text-sm">Client Satisfaction</div>
             </div>
           </div>
