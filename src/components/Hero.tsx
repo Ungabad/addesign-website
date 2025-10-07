@@ -23,25 +23,25 @@ const Hero: React.FC = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
-            <button className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105">
+            <button className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105" onClick={() => window.location.href = '#contact'}>
               Start Your Project
             </button>
-            <button className="border-2 border-primary text-white hover:bg-primary hover:text-slate-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300">
+            <button className="border-2 border-primary text-white hover:bg-primary hover:text-slate-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300" onClick={() => window.open('https://aaron-portfolio-seven.vercel.app/', '_blank')}>
               View Our Work
             </button>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div>
-              <div className="text-3xl font-bold text-red-400 mb-2">150+</div>
+              <div className="text-3xl font-bold text-red-400 mb-2">10+</div>
               <div className="text-gray-300">Projects Delivered</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-red-400 mb-2">98%</div>
+              <div className="text-3xl font-bold text-red-400 mb-2">100%</div>
               <div className="text-gray-300">Client Satisfaction</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-red-400 mb-2">5+</div>
+              <div className="text-3xl font-bold text-red-400 mb-2">2+</div>
               <div className="text-gray-300">Years Experience</div>
             </div>
           </div>
