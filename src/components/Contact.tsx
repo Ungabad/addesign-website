@@ -164,7 +164,7 @@ const Contact: React.FC = () => {
                   </div>
                 </div>
 
-                <div className="flex items-center space-x-4">
+                {/* <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center">
                     <svg className="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -175,7 +175,7 @@ const Contact: React.FC = () => {
                     <h4 className="font-semibold text-gray-900">Office</h4>
                     <p className="text-gray-600">1415 E Hartson Ave<br />Suite #5, Spokane, WA 99202</p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
 
