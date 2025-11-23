@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AD Design LLC Invoice</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #FAF7F3;
+      color: #2B2B2B;
+      margin: 0;
+      padding: 0;
+    }
+
+    .invoice-container {
+      width: 800px;
+      margin: 40px auto;
+      background: white;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    header {
+      background-color: #A92C21;
+      color: white;
+      padding: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header img {
+      height: 60px;
+    }
+
+    header .business-info {
+      text-align: right;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .content {
+      padding: 40px;
+    }
+
+    h1 {
+      color: #A92C21;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .invoice-details, .client-info {
+      font-size: 14px;
+      margin-bottom: 25px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    th {
+      background-color: #A92C21;
+      color: white;
+      text-align: left;
+      padding: 10px;
+    }
+
+    td {
+      padding: 10px;
+      border-bottom: 1px solid #E0B85E;
+    }
+
+    .totals {
+      margin-top: 30px;
+      text-align: right;
+    }
+
+    .totals div {
+      margin-bottom: 5px;
+    }
+
+    .totals strong {
+      color: #A92C21;
+      font-size: 16px;
+    }
+
+    footer {
+      background-color: #FAF7F3;
+      color: #6E6E6E;
+      text-align: center;
+      padding: 15px;
+      font-size: 13px;
+      border-top: 2px solid #E0B85E;
+    }
+
+    .thank-you {
+      font-style: italic;
+      color: #D5A14C;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="invoice-container">
+    <header>
+      <img src="ad-design-logo.png" alt="AD Design LLC Logo" />
+      <div class="business-info">
+        <strong>AD Design LLC</strong><br />
+        www.addesignstudios.com<br />
+        aaron@addesignstudios.com<br />
+        (509) 202-5508<br />
+        Spokane, WA
+      </div>
+    </header>
+
+    <div class="content">
+      <h1>Invoice</h1>
+      <div class="invoice-details">
+        <strong>Invoice #:</strong> 00123<br />
+        <strong>Date:</strong> 10/30/2025<br />
+        <strong>Due Date:</strong> 11/15/2025
+      </div>
+
+      <div class="client-info">
+        <strong>Bill To:</strong><br />
+        John Smith<br />
+        Smith & Co. Marketing<br />
+        john@smithco.com
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Description</th>
+            <th>Qty</th>
+            <th>Rate</th>
+            <th>Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Website Design & Development</td>
+            <td>1</td>
+            <td>$2,000</td>
+            <td>$2,000</td>
+          </tr>
+          <tr>
+            <td>Branding Package</td>
+            <td>1</td>
+            <td>$500</td>
+            <td>$500</td>
+          </tr>
+          <tr>
+            <td>Hosting & Maintenance (1 Year)</td>
+            <td>1</td>
+            <td>$300</td>
+            <td>$300</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="totals">
+        <div>Subtotal: $2,800</div>
+        <div>Tax (0%): $0.00</div>
+        <div><strong>Total Due: $2,800</strong></div>
+      </div>
+
+      <div class="thank-you">
+        Thank you for choosing AD Design LLC — “Design with intention.”
+      </div>
+    </div>
+
+    <footer>
+      Make checks payable to <strong>AD Design LLC</strong>  
+      • EIN: [Insert EIN]  
+      <br> Payment options: ACH, Zelle, PayPal
+    </footer>
+  </div>
+</body>
+</html>
